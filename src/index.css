@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.instructions {
+
+}
+
+.selectFileButton {
+	background: lightblue;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.inputPathLabel {
+
+}
+
+.runProgramButton {
+
+}
