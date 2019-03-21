@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Document Builder</title>
+    <title>Excel Deduplicater</title>
 
     <link rel="stylesheet" href="../lib/foundation/css/foundation.css">
     <link rel="stylesheet" href="../lib/foundation/css/app.css">
@@ -13,11 +13,24 @@
   </head>
   <body>
     <div class="grid-y" style="height:100%;">
-      <div class="cell medium-2">Instructions</div>
-      <div class="cell medium-2">Select an excel file</div>
-      <div class="cell medium-2">Select a column to dedupe by</div>
-      <div class="cell medium-2">Select an output file</div>
-      <div class="cell medium-2">Run the program</div>
+      <div class="cell medium-2">
+        <div class="instructions">First, select an input file to deduplicate:</div>
+        <button class="selectFileButton" onclick="inputFileHandler();">Select Input File</button>
+        <div id="inputPathLabel" class="pathLabel"></div>
+      </div>
+      <div class="cell medium-2">
+        <div class="instructions">Next, select a column to deduplicate by:</div>
+
+      </div>
+      <div class="cell medium-2">
+        <div class="instructions">Then, choose where to save the output file:</div>
+        <button class="selectFileButton" onclick="outputFileHandler();">Select Output File</button>
+        <div id="inputPathLabel" class="pathLabel"></div>
+      </div>
+      <div class="cell medium-2">
+        <div class="instructions">Finally, hit the button to run the program:</div>
+        <button class="runProgramButton" onclick="runProgram();">Run Program</button>
+      </div>
     </div>
     <script src="main.js"></script>
   </body>

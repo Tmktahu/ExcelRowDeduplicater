@@ -10,3 +10,15 @@
 // splice records together so we don't override data as we go
 // ask them where they want to save the new file (before or after??)
 // write the deduplicated file.
+
+function inputFileHandler() {
+
+}
+
+function outputFileHandler() {
+
+}
+
+function runProgram() {
+	
+}
